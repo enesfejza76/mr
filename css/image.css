@@ -1,0 +1,56 @@
+.container-follow-us-container-boxes-box-img-1{
+    background-image: url(/image/book\ website.PNG);
+}
+
+.container-follow-us-container-boxes-box-img-2{
+    background-image: url(/image/expanse\ tracker\ project.png);
+}
+
+.container-follow-us-container-boxes-box-img-3{
+    background-image: url(/image/to\ do\ list\ project.png);
+}
+
+.our-most-popular-course-container-boxes-box-1{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.600)),url(/image/book\ website.PNG);
+    background-size: cover;
+    background-position: center;
+    padding: 25px 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.our-most-popular-course-container-boxes-box-1:hover{
+    transform: scale(1.02);
+}
+
+.our-most-popular-course-container-boxes-box-2-boxes-2-box-img-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.600)),url(/image/Search\ box\ project.PNG);
+    transition: 0.5s;
+}
+
+.our-most-popular-course-container-boxes-box-2-boxes-2-box-img-1:hover{
+    transform: scale(1.02);
+}
+
+.our-most-popular-course-container-boxes-box-2-boxes-2-box-img-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.600)),url(/image/change\ background\ project.PNG);
+    transition: 0.5s;
+}
+
+.our-most-popular-course-container-boxes-box-2-boxes-2-box-img-2:hover{
+    transform: scale(1.02);
+}
+
+.our-most-popular-course-container-boxes-box-2-boxes-2-box-img-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.600)),url(/image/loader\ project.PNG);
+    transition: 0.5s;
+}
+
+.our-most-popular-course-container-boxes-box-2-boxes-2-box-img-3:hover{
+    transform: scale(1.02);
+}

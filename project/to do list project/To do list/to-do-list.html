@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- To do list app text -->
+    <title>Code with Mr. Code Crafter - To do list project</title>
+    <!-- End To do list app text -->
+    <!-- Connect html with css -->
+    <link rel="stylesheet" href="./to-do-list.css">
+    <!-- End Connect html with css -->
+    <!-- Connect to font awesome website -->
+    <script src="https://kit.fontawesome.com/5e26473dc3.js" crossorigin="anonymous"></script>
+    <!-- End Connect to font awesome website -->
+    <!-- bar photo in html -->
+    <link rel="icon" href="/image/businnes logo.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <!-- To do list contianer -->
+    <div class="to-do-list-container">
+        <div class="container-to-do-list">
+            <!-- Container to do list title and logo -->
+            <div class="container-to-do-list-title-logo">
+                <button class="container-to-do-list-title-logo-btn">
+                    <span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </span>
+                    To do list
+                </button>
+            </div>
+            <!-- End Container to do list title and logo -->
+            <!-- Container to add new item -->
+            <div class="container-to-do-list-add-new-item">
+                <form id="input-form">
+                    <input id="input-text" type="text" placeholder="Add new item">
+                    <select name="" id="input-select">
+                        <option value="0">
+                            Select a category
+                        </option>
+                        <option value="1">
+                            Businnes
+                        </option>
+                        <option value="2">
+                            School
+                        </option>
+                        <option value="3">
+                            To do
+                        </option>
+                        <option value="4">
+                            Work
+                        </option>
+                    </select>
+                    <button type="submit">Add</button>
+                </form>
+            </div>
+            <!-- End Container to add new item -->
+            <!-- Container to do list filter item -->
+            <div class="container-to-do-list-filter-item">
+                <form>
+                    <input id="item-filter" type="text" placeholder="Filter item">
+                </form>
+            </div>
+            <!-- End Container to do list filter item -->
+            <!-- Container to store items -->
+            <div class="container-to-store-items" id="container-item">
+
+            </div>
+            <!-- End Container to store items -->
+            <!-- Container to btn clear all -->
+            <div class="container-clear-all">
+                <button id="btn-clear-all">Clear All</button>
+            </div>
+            <!-- End Container to btn clear all -->
+        </div>
+    </div>
+    <!-- End To do list contianer -->
+    
+    <!-- Connect html with javascript -->
+    <script src="./to-do-list.js"></script>
+    <!-- End Connect html with javascript -->
+
+</body>
+</html>

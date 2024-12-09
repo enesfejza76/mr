@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Website title -->
+    <title>Code with Mr. Code Crafter - Search box project</title>
+    <!-- Website title end -->
+    <!-- Connect hmtl with css -->
+    <link rel="stylesheet" href="./test-posting.css">
+    <link rel="stylesheet" href="/css/image.css">
+    <!-- Connect hmtl with css end -->
+    <!-- Connect with font awesome -->
+    <script src="https://kit.fontawesome.com/5e26473dc3.js" crossorigin="anonymous"></script>
+    <!-- Connect with font awesome end -->
+    <!-- Connect to prism css -->
+    <link rel="stylesheet" href="/css/prism.css">
+    <!-- Connect to prism css end -->
+    <!-- bar photo in html -->
+    <link rel="icon" href="/image/businnes logo.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <!-- hire us on fiverr -->
+    <div id="fiver-container" class="container-hire-us-on-fiver">
+        <div class="hire-us-on-five-container">
+            <div class="hire-us-on-five-container-none">
+
+            </div>
+            <div class="hire-us-on-five-container-txt   ">
+                <h1>Love our work? You'll also love our web development services on Fiverr!</h1>
+                <a href="https://www.fiverr.com/mrcodecrafter?up_rollout=true" target="_blank"><button>Hire us on Fiverr!</button></a>
+            </div>
+            <div class="hire-us-on-five-container-close">
+                <button id="fiver-close-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container head mobile -->
+    <div id="menu" class="head-mobile">
+        <div class="head-mobile-close-container">
+            <button id="closeMenu" class="head-mobile-close-icon">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="head-mobile-link">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/blog.html">BLOG</a></li>
+                <li><a href="/html-css-project.html">HTML & CSS</a></li>
+                <li><a href="/JavaScript-project.html">JAVASCRIPT</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="/course.html">COURSE</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Container head mobile end -->
+    
+    <!-- Container head -->
+    <div class="head">
+        <div class="head-center">
+            <a href="/index.html"><div class="head-txt">
+                <button>
+                    <i class="fa-solid fa-code"></i>
+                </button>
+                <h1>Mr. Code Crafter</h1>
+            </div></a>
+            <div class="head-link">
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/html-css-project.html">HTML & CSS</a></li>
+                    <li><a href="/JavaScript-project.html">JAVASCRIPT</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+                <button id="openMenu" class="head-link-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Container head end -->
+
+    <!-- Container our most popular course -->
+    <div class="container-home-page-title-txt">
+        <div class="container-home-page-title-txt-center">
+            <a href="/index.html">Home</a>
+            <button>
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <p>Search box</p>
+        </div>
+    </div>
+    <!-- Container our most popular course end -->
+
+    <div class="code-wrapper"><pre class="languege-html"><code id="code" class="language-html">  
+&lt;!-- Mr. Code Crafter - youtube.com/Mr.CodeCrafter --&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt; Underline And Overline Menu Hover Effect | Mr. Code Crafter&lt;/title&gt;
+&lt;link rel="stylesheet" href="style.css"&gt;
+&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;nav&gt;
+      &lt;a href="#home"&gt;Home&lt;/a&gt;
+      &lt;a href="#about"&gt;About&lt;/a&gt;
+      &lt;a href="#services"&gt;Services&lt;/a&gt;
+      &lt;a href="#contact"&gt;Contact&lt;/a&gt;
+    &lt;/nav&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    </div>
+
+        <div class="code-wrapper"><pre class="languege-html"><code id="code" class="language-css">  
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121317;
+}
+
+nav {
+  height: 100vh;
+  width: 70vw;
+  min-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #a0a0a0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+
+a:before,
+a:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  background-color: #18f08b;
+  transition: 0.5s;
+}
+
+a:after {
+  left: 0;
+  bottom: -10px;
+}
+
+a:before {
+  right: 0;
+  top: -10px;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+a:hover:after,
+a:hover:before {
+  width: 100%;
+}
+
+        </code></pre>
+    </div>
+    
+    <!-- Connect hmtl with js -->
+    <script src="./test-posting.js"></script>
+    <!-- Connect hmtl with js end -->
+
+    <!-- Connect to prism js -->
+    <script src="/js/prism.js"></script>
+    <!-- Connect to prism js end -->
+
+</body>
+</html>

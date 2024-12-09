@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width: 65%;
+    height: 95vh;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4rem 0rem;
+}
+
+.container h1{
+    font-weight: 200;
+    font-size: 2rem;
+    line-height: 1.6rem;
+}
+
+.container p{
+    font-size: 1rem;
+    color: green;
+}
+
+.name-div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.name-div input{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.name-div h3{
+    margin: 10px;
+}
+
+.data-amount-container{
+    display: flex;
+}
+
+.information-div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.information-div input{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.information-div h3{
+    margin: 10px;
+}
+
+.submit-btn{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn button{
+    height: 100%;
+    width: fit-content;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-weight: 200;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.submit-btn button:hover{
+    background-color: rgba(0, 128, 0, 0.700);
+}
+
+.expenses-styling{
+    width: 33.3%;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.018);
+    border: 1px solid rgba(0, 0, 0, 0.073);
+    border-top: none;
+    padding-bottom: 15px;
+    float: left;
+}
+
+.table-container{
+    margin-top: 20px;
+}
+
+.one{
+    width: 33.3%;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.073);
+    float: left;
+    font-weight: 600;
+}

@@ -1,0 +1,460 @@
+/* Connect with google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Website head mobile */
+.head-mobile{
+    width: 0%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.head-mobile-close-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.head-mobile-close-icon{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    outline: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.head-mobile-close-icon{
+    font-size: 1rem;
+}
+
+.head-mobile-link{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-mobile-link ul{
+    text-align: center;
+}
+
+.head-mobile-link ul li{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.head-mobile-link ul li a{
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.head-mobile-link ul li a:hover{
+    color: rgba(0, 0, 0, 0.600);
+}
+
+/* Website head */
+.head{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 50px;
+}
+
+.head-center{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-txt{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.head-txt button{
+    background-color: transparent;
+    border: none;
+    outline: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.head-txt button i{
+    font-size: 1.5rem;
+}
+
+.head-txt h1{
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: black;
+}
+
+.head-link{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.head-link ul li{
+    display: inline;
+    padding: 10px 12px;
+}
+
+.head-link ul li a{
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.head-link ul li a:hover{
+    color: rgba(0, 0, 0, 0.600);
+}
+
+.head-link-menu{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    outline: transparent;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.head-link-menu i{
+    font-size: 1rem;
+}
+
+/* Course html and css */
+.course-html-and-css{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.html-and-css-course{
+    width: 75%;
+    height: auto;
+}
+
+.html-and-css-course h1{
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.html-and-css-course-boxes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.html-and-css-course-boxes-box{
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.621);
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 15px;
+}
+
+.html-and-css-course-boxes-box h1{
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.html-and-css-course-boxes-box-levels{
+    width: 27.5%;
+    height: 75vh;
+    overflow: auto;
+    position: sticky;
+    top: 25px;
+}
+
+/* Languege html scroll bar */
+/* width */
+.html-and-css-course-boxes-box-levels::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+.html-and-css-course-boxes-box-levels::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+ 
+/* Handle */
+.html-and-css-course-boxes-box-levels::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.312); 
+    border-radius: 5px;
+}
+
+.html-and-css-course-boxes-box-course{
+    width: 70%;
+}
+
+.html-and-css-course-boxes-box-course h1{
+    margin-bottom: 20px;
+}
+
+.html-and-css-course-boxes-box-next-prev-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.html-and-css-course-boxes-box-next-prev-btn{
+    padding: 10px 13px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.html-and-css-course-boxes-box-next-prev-btn:hover{
+    background-color: rgba(0, 0, 0, 0.800);
+}
+
+.html-and-css-course-boxes-box-course h3{
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+.html-and-css-course-boxes-box-course p{
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.html-and-css-course-boxes-box-course p span{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    color: red;
+}
+
+.html-and-css-course-boxes-box-course-try-example{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    padding: 10px;
+    padding-left: 15px;
+    padding-top: 17px;
+    margin-bottom: 25px;
+}
+
+.languege{
+    width: 100%;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.html-and-css-course-boxes-box-course-try-example button{
+    padding: 10px 13px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.html-and-css-course-boxes-box-course ul{
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+
+.html-and-css-course-boxes-box-course ul li{
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.html-and-css-course-boxes-box-course ul li span{
+    color: black;
+    font-weight: 700;
+}
+
+.html-and-css-course-boxes-box-txt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.html-and-css-course-boxes-box-txt h1{
+    margin-bottom: 13px;
+}
+
+.html-and-css-course-boxes-box-btn{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 12px;
+    transition: 0.5s;
+}
+
+.html-and-css-course-boxes-box-btn:hover{
+    background-color: #ecf0f1;
+}
+
+.html-and-css-course-boxes-box-btn-active{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+/* For tablet */
+@media screen and (max-width: 1000px) {
+    /* Hire us on fiver mobile */
+    .hire-us-on-five-container{
+        justify-content: space-between;
+    }
+
+    .hire-us-on-five-container-none{
+        display: none;
+    }
+
+    .hire-us-on-five-container-txt{
+        text-align: left;
+    }
+
+    .hire-us-on-five-container-txt h1{
+        font-size: 1rem;
+        margin-right: 4px;
+    }
+
+    /* Head link mobile */
+    .head-center{
+        width: 95%;
+    }
+
+    .head-link ul{
+        display: none;
+    }
+
+    .head-link-menu{
+        display: flex;
+    }
+}
+
+/* For mobile */
+@media screen and (max-width: 800px) {
+    /* Hire us on fiver mobile */
+    .hire-us-on-five-container{
+        justify-content: space-between;
+    }
+
+    .hire-us-on-five-container-none{
+        display: none;
+    }
+
+    .hire-us-on-five-container-txt{
+        text-align: left;
+    }
+
+    .hire-us-on-five-container-txt h1{
+        font-size: 1rem;
+        margin-right: 4px;
+    }
+
+    /* Head link mobile */
+    .head-center{
+        width: 95%;
+    }
+
+    .head-link ul{
+        display: none;
+    }
+
+    .head-link-menu{
+        display: flex;
+    }
+
+    /* Html and css course */
+    .html-and-css-course{
+        width: 90%;
+    }
+    
+    .html-and-css-course-boxes{
+        flex-direction: column;
+    }
+
+    .html-and-css-course-boxes-box{
+        width: 100%;
+    }
+
+    .html-and-css-course-boxes-box-levels{
+        display: none;
+    }
+}
